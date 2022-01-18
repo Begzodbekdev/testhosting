@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Montserrat;
+	color: #486769; 
+}
+.asosiy{
+	width: 900px;
+	height: 608px;
+	margin: 0 auto;
+	background-image: radial-gradient(at left top, #40a293, #153685);
+	padding-top: 80px;
+
+	
+}
+.x{
+	background: url(x.png) no-repeat 0px 0px;
+	margin-left: 650px; 
+	width:46px;
+	height: 46px;
+
+}
+.content{
+    width: 450px;
+	height: 500px;
+	background-image: radial-gradient(at left top, #a5d6d0, #4493bd);
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 20px;	 
+}
+.contact-us{
+	background:  url(mail.png) no-repeat 0px 8px;
+	font-size: 25px;
+    	
+}
+.contact-us h1{
+	margin-left: 35px;
+	font-size: 30px;
+	display: inline-block;
+}
+.window{
+	margin-top: 30px;
+	background: radial-gradient(at top right, #a7d8d2, #86cbc8);
+	border-radius: 10px;
+	}
+
+input[type = "text" ]
+{
+   height: 33px;
+	margin: 5px;
+	padding-left: 10px; 
+	border-radius: 5px;
+	border: 1px solid #83cdcc;
+	border-bottom: 1px solid #b2dedd;
+}
+.window input[type = "text"]
+{
+	font-weight: bold;
+	color: black;
+	width: 92%;
+	background: #a1d2ce;
+	background: rgba(255. 255, 255, 0.5);
+	margin: 5px;
+}
+.ename
+{
+	padding: 12px 5px;
+}
+.ename input[type = "text"]
+{
+	width: 40%;
+}
+.ename input[type = "text"]:first-child
+{
+	width: 47%;
+}
+.ename-1 input[type = "text"]
+{
+	margin: 0 auto;
+	margin: 5px 10px;
+}
+input[type = "textarea"]
+{
+	font-weight: bold;
+	color: black;
+	width: 92%;
+	border: 1px solid #83cdcc;
+	border-bottom: 1px solid #b2dedd;
+	border-radius: 5px;
+	background: #a1d2ce;
+	background: rgba(255. 255, 255, 0.5);
+	padding-left: 10px;
+	height: 100px;
+	margin: 0 auto;
+	margin: 10px;
+}
+input[type = "submit"]
+{
+	margin: 50px 150px;
+	padding: 10px 40px;
+	text-align: center;
+	background: linear-gradient(to bottom, #86cbc8, #35a3ce);
+	border-radius: 5px;
+	border: 1px solid #3cb5ca;
+}
+::-webkit-input-placeholder
+{
+	font-family: Montserrat-Medium;
+	font-size: 20pt;
+	color: gray;
+}
+::-moz-placeholder
+{
+	font-family: Montserrat-Medium;
+	font-size: 20pt;
+	color: gray;
+}
+::-ms-input-placeholder
+{
+	font-family: Montserrat-Medium;
+	font-size: 20pt;
+	color: gray;
+}
